@@ -12,7 +12,8 @@ Content-Type: application/json; charset=utf-8
 Кодировка JSON документов UTF-8.
 
 # Пример JSON запроса:
-```{
+```
+{
   "message_id": "123456",
   "channel": "viber",
   "timestamp": "2023-01-01 09:00:00",
@@ -26,7 +27,8 @@ Content-Type: application/json; charset=utf-8
       "text": "Ответ на сообщение"
     }
   }
-}```
+}
+```
 
 Где:
 * **message_id** – Идентификатор сообщения в системе.;
